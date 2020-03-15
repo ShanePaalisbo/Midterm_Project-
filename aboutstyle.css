@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    padding-top: 1px !important;
+}
+.nav-item
+{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link
+{
+    color: #fff !important;
+    font-size: 18px;
+    padding: 0 0 5px 0;
+    display: unset;
+}
+.navbar-brand img
+{
+    width: 125px;
+}
+.navbar-toggler
+{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.active-about
+{
+    border-bottom: 2px solid white;
+}
+.nav-link:hover
+{
+    border-bottom: 2px solid white;
+}
+section.header
+{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body
+{
+    background-image: url(a_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+body{
+    background: linear-gradient(90deg, #e8e8e8 50%, #3d009e 50%);
+}
+.portfolio{
+    padding:6%;
+    text-align:center;
+}
+.heading{
+    background: #fff;
+    padding: 1%;
+    text-align: left;
+    box-shadow: 0px 0px 4px 0px #545b62;
+}
+.heading img{
+    width: 10%;
+}
+.bio-info{
+    padding: 5%;
+    background:#fff;
+    box-shadow: 0px 0px 4px 0px #b0b3b7;
+}
+.name{
+    font-family: 'Charmonman', cursive;
+    font-weight:600;
+}
+.bio-image{
+    text-align:center;
+}
+.bio-image img{
+    border-radius:50%;
+    max-width:100%; 
+    height: auto; 
+}
+.bio-content{
+    text-align:left;
+}
+.bio-content p{
+    font-weight:600;
+    font-size:30px;
+}

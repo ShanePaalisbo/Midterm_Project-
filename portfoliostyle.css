@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    padding-top: 1px !important;
+}
+.nav-item
+{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link
+{
+    color: #fff !important;
+    font-size: 18px;
+    padding: 0 0 5px 0;
+    display: unset;
+}
+.navbar-brand img
+{
+    width: 125px;
+}
+.navbar-toggler
+{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.active-portfolio
+{
+    border-bottom: 2px solid white;
+}
+.nav-link:hover
+{
+    border-bottom: 2px solid white;
+}
+section.header
+{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body
+{
+    background-image: url(a_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container
+{
+    width: 90%;
+}
+
+.my-4
+{
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   /*  background-image: url(a_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: #25274d;
+}
+
+.header
+{
+    background: gray;
+}
+.navbar
+{
+    padding-top: 1px !important;
+}
+.nav-item
+{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link
+{
+    color: #fff !important;
+    font-size: 18px;
+    padding: 0 0 5px 0;
+    display: unset;
+}
+.navbar-brand img
+{
+    width: 125px;
+}
+.navbar-toggler
+{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.active-contact
+{
+    border-bottom: 2px solid white;
+}
+.nav-link:hover
+{
+    border-bottom: 2px solid white;
+}
+
+section.header
+{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-3
+{
+    background: #ff9b00;
+	padding: 4%;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+h2{
+    text-align: center;
+}
+.social
+{
+    text-align: center;
+/*     background: #2f3542;
+    width: 350px;
+    height: 450px; */
+
+}
+.card-icon
+{
+    font-size:18px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    background: #2f3542;
+}
